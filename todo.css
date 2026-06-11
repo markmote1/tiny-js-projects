@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mytodos{
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 2px 1px 5px   black;
+    border-radius: 5px;
+}
+
+header{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 5px;
+}
+header h1{
+    
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 500;
+    font-variant: small-caps;
+}
+
+header p{
+    font-size: 15px;
+    padding: 5px;
+}
+#inputHolder{
+    margin: 15px 0px;
+    display: flex;
+}
+#inputTodo{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+#addBtn{
+    padding: 5px;
+    border: none;
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#addBtn:hover{
+    color: green;
+    background-color: rgb(38, 194, 199);
+    scale: 1.2;
+    
+}
+
+.statusHolder{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.status:hover{
+    cursor: pointer;
+    color: rgb(3, 143, 120);
+    
+}
+
+.status.active{
+    color: rgb(3, 143, 120);
+}
+
+#todos{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: flex-start;
+    padding: 10px;
+    
+    
+}
+#todos li{
+    text-decoration: none;
+    margin: 5px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#dltBtn{
+    float: right;
+    border: none;
+    background-color: aliceblue;
+    margin: 2px;
+}
+#dltBtn:hover{
+    color: red;
+    scale: 1.2;
+    cursor: pointer;
+}
+#checkbox{
+    float: left;
+    margin: 2px;
+}
+
+footer{
+    margin: 10px;
+    padding: 10px;
+}
