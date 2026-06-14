@@ -81,9 +81,22 @@ header p{
     list-style: none;
     align-items: flex-start;
     padding: 10px;
+    overflow-y: scroll;
     
     
 }
+
+.hidden{
+    /* display: none; */
+    /* visibility: collapse; */
+    visibility: hidden;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: green;
+}
+
 #todos li{
     text-decoration: none;
     margin: 5px;
