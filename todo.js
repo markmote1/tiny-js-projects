@@ -58,7 +58,7 @@ todos.innerHTML = ''
         li.append(checkbox,p,btn)
         todos.append(li)
 
-        
+
 
 //         checkbox.addEventListener('click', (e)=>{
 //             // console.log(e.target.checked)
@@ -102,9 +102,7 @@ function deleteTodo(todo){
 
 
 
-// function deleteTodo(){
-//     if()
-// }
+
 
 window.addEventListener('DOMContentLoaded', renderTodo)
 
