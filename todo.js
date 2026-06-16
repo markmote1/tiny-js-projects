@@ -97,7 +97,7 @@ function deleteTodo(todo){
     todosInStorage.splice(todo, 1)
     localStorage.setItem('todo', JSON.stringify(todosInStorage))
 
-
+//updates coming soon
 }
 
 
