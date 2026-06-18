@@ -106,3 +106,4 @@ function deleteTodo(todo){
 
 window.addEventListener('DOMContentLoaded', renderTodo)
 
+//updates
