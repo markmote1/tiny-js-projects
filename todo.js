@@ -5,7 +5,7 @@ let dateHolder = document.querySelector("#dateHolder")
 
 console.dir(inputTodo)
 let todoArray = []
-//learn today pleas
+//learn today pleasee mark
 addTodoBtn.addEventListener('click',()=>{
     let todo = pickTodo()
     if(!todo) return
