@@ -7,6 +7,7 @@ console.dir(inputTodo)
 let todoArray = []
 //another day another dollar
 // updates
+//another day
 //learn today pleasee mark
 addTodoBtn.addEventListener('click',()=>{
     let todo = pickTodo()
