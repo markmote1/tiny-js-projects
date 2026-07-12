@@ -11,6 +11,7 @@ let todoArray = []
 //still not yet
 //since
 //another one
+//not yet
 //learn today pleasee mark
 addTodoBtn.addEventListener('click',()=>{
     let todo = pickTodo()
