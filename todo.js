@@ -67,25 +67,26 @@ todos.innerHTML = ''
 
 
 
-//         checkbox.addEventListener('click', (e)=>{
-//             // console.log(e.target.checked)
-//             let value = e.target.checked
-//             if(value === true){
-//                 todo.completed = true
-//                 let element =e.target.parentElement
-//                 // console.log(element)
-//                 element.classList.add('completed')
-//             }
-//             if(todo.completed){
-// e.target.parentElement.classList.add('completed')
-//             }
+        checkbox.addEventListener('click', (e)=>{
+            let value = e.target.checked
+            if(value === true){
+                todo.completed = true
+                let element =e.target.parentElement
+                console.log(element)
+                p.style.textDecoration = 'line-through'
+                element.classList.add('completed')
+                
+            }
+            if(todo.completed){
+e.target.parentElement.classList.add('completed')
+            }
             
-//             else{e.target.parentElement.classList.remove('completed')}
-//             localStorage.setItem('todo',JSON.stringify(todosInStorage) || [])
+            else{e.target.parentElement.classList.remove('completed')}
+            localStorage.setItem('todo',JSON.stringify(todosInStorage) || [])
 
 
 
-//         })
+        })
 
         btn.addEventListener('click',(e)=>{
             deleteTodo(todo)
