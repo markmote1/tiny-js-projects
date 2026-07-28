@@ -84,7 +84,7 @@ e.target.parentElement.classList.add('completed')
             else{e.target.parentElement.classList.remove('completed')}
             localStorage.setItem('todo',JSON.stringify(todosInStorage) || [])
 
-
+//updates
 
         })
 
